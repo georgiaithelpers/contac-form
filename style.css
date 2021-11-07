@@ -1,0 +1,97 @@
+/*
+   mmm                                "                  mmmmm mmmmmmm       
+ m"   "  mmm    mmm    m mm   mmmm  mmm     mmm            #      #          
+ #   mm #"  #  #" "#   #"  " #" "#    #    "   #           #      #          
+ #    # #""""  #   #   #     #   #    #    m"""#           #      #          
+  "mmm" "#mm"  "#m#"   #     "#m"#  mm#mm  "mm"#         mm#mm    #          
+                              m  #                                           
+                               ""                                            
+                                                                             
+ m    m        ""#                                                           
+ #    #  mmm     #    mmmm    mmm    m mm   mmm                              
+ #mmmm# #"  #    #    #" "#  #"  #   #"  " #   "                             
+ #    # #""""    #    #   #  #""""   #      """m                             
+ #    # "#mm"    "mm  ##m#"  "#mm"   #     "mmm"                             
+                      #                                                      
+                      "                
+*/
+body {
+    margin: 0;
+    padding:0;
+    /* height: 100vh; */
+}
+html {
+    background: url(https://media.giphy.com/media/QpVUMRUJGokfqXyfa1/giphy.gif) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+  h1 {
+      color:white
+  }
+.inputs {
+    border-collapse: collapse;
+    max-width: 350px;
+    border-radius: 2%;
+    width: auto;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.74);
+    padding: 2em;
+}
+
+input {
+    width: 15vh;
+    height: 0.5%;
+    margin-bottom: 15px;
+    outline: none;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: transparent;
+    text-align: center;
+}
+
+input::placeholder{
+    text-align: center;
+    font-weight: 600;
+    
+    color: rgb(255, 255, 255);
+}
+input:focus{
+    border-bottom: 1px solid rgb(10, 221, 10);
+}
+
+textarea{
+    font-weight: 600;
+    color: black;
+    outline: none;
+    max-width: 350;
+    resize: none;
+    max-width: auto;
+    border-bottom:red 3px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+}
+textarea::placeholder{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+textarea:focus{
+    border-bottom:rgb(10, 221, 10) 3px solid;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 1em;
+    margin-top: 1.5em;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.400);
+    color: rgb(255, 255, 255);
+}
+button:hover{
+    background: rgba(10, 221, 10, 0.400);
+}
